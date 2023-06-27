@@ -1,6 +1,5 @@
 using Microsoft.OpenApi.Models;
 using WebAppApiKeyMiddleware.Authentication;
-using WebAppApiKeyMiddleware.Authentication;
 
 var builder = WebApplication.CreateBuilder(args);
 
