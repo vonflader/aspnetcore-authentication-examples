@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppApiKeyFilter", "ApiKeyFilter\WebAppApiKeyFilter\WebAppApiKeyFilter.csproj", "{651CE13D-5F50-4283-AB32-AFC417B313BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppApiKeyMiddleware", "WebAppApiKeyMiddleware\WebAppApiKeyMiddleware.csproj", "{8F39B6CF-2148-4FAA-A67D-08C43C203D9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,15 @@ Global
 		{651CE13D-5F50-4283-AB32-AFC417B313BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{651CE13D-5F50-4283-AB32-AFC417B313BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{651CE13D-5F50-4283-AB32-AFC417B313BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F39B6CF-2148-4FAA-A67D-08C43C203D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F39B6CF-2148-4FAA-A67D-08C43C203D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F39B6CF-2148-4FAA-A67D-08C43C203D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F39B6CF-2148-4FAA-A67D-08C43C203D9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7443B143-C04B-4FBF-9F78-8AE0659BA4DD}
 	EndGlobalSection
 EndGlobal
